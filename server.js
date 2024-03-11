@@ -18,6 +18,9 @@ app.get('/aula02',(req, res)=>{
 app.get('/aval',(req, res)=>{
     res.sendFile(path.join(__dirname,'static/aval.html'))
 })
+app.get('/aula04',(req, res)=>{
+    res.sendFile(path.join(__dirname,'static/aula4.html'))
+})
 app.get('/ativ',(req, res)=>{
     res.sendFile(path.join(__dirname, 'static/ativ.html'))
 })

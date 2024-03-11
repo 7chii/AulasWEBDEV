@@ -28,3 +28,26 @@ table{
 #botao{
     border-radius: 25%;
 }
+#ex1a4{
+    text-align: center;
+}
+#ex2a4{
+    text-align: right;
+}
+#ex3a4{
+    text-align: left;
+}
+#ex4a4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color:plum
+}
+#ex5a4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:8px;
+    font-style: italic;
+    color:aquamarine;
+    background-color: yellow;
+
+}
