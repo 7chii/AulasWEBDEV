@@ -1,0 +1,30 @@
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+}
+li, dt, dd {
+    padding-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightslategray;
+}
+body{
+    background-color: azure;
+    padding-left: 10%;
+}
+td, th{
+    width: auto;
+    border: 1px solid black;
+}
+table{
+    width: 80%;
+    font-size: 20px;
+}
+#finais{
+    background-color: lightpink;
+}
+#ulA3{
+    list-style-type:none;
+}
+#botao{
+    border-radius: 25%;
+}

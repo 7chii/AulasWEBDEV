@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>A#3</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="index das aulas de dev web">
+    <meta name="author" content="Maripaper3">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+
+    <body>
+    <h1>Aula 03!!!</h1>
+    <h2>meta-tags!(revisao)</h2>
+    <h3>meta names!(e charset)</h3>
+    <ul id="ulA3">
+        <li>charset:<br>&nbsp;&nbsp;Lista de caracteres usados na página</li>
+        <li>description:<br>&nbsp;&nbsp;Breve descrição da página</li>
+        <li>author:<br>&nbsp;&nbsp;Autoria da página</li>
+        <li>viewpoint:<br>&nbsp;&nbsp;exibição do dispositivo</li>
+        <li>keywords:<br>&nbsp;&nbsp;Palavras auxiliares pra ferramentas de pesquisa</li>
+    </ul>
+    <hr>
+    <h2>Formularios em html...</h2>
+    <form action="/action_page.php" method="post">
+        <h3>digite seu LOGIN</h3>
+        <input type="text" name="login"><br>
+        <h3>digite sua senha</h3>
+        <input type="password" name="password"><br><br>
+        <input type="button" value="Enviar" id="botao">
+        
+    </form>
+    <hr>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>BLABLABLA:</legend>
+            <label for="fname">NOME</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="lname">SOBRENOME</label>
+            <input type="text" name="lname" id="lname"><br><br>
+            <label for="bday">ANIVERSARIO</label>
+            <input type="date" id="bday" name="bday"><br><br>
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+    <hr>
+    <h2>label tag teste!</h2>
+    <form action="/action_page.php">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+      <hr>
+      <h2>Exercicio pesquisa em aula</h2>
+      <ul>
+        <li>form</li>
+        <li>fieldset</li>
+        <li>div</li>
+        <li>label</li>
+        <li>input</li>
+        <li>select</li>
+        <li>textarea</li>
+        <li>button</li>
+        <li>legend</li>
+        <li>datalist</li>
+        <li>output</li>
+        <li>option</li>
+        <li>optgroup</li>
+    
+      </ul>
+      <hr>
+      <h2>Select tag!</h2>
+      <label for="cars">Choose a car:</label>
+<form action="action_page.php">
+<select name="ESCOLHAS" id="escolhas">
+  <option value="A">A</option>
+  <option value="B">B</option>
+  <option value="C">C</option>
+  <option value="D">D</option>
+</select><br><br>
+<input type="submit" value="Enviar">
+</form>
+<hr>
+<h2>datalist tag!</h2>
+<label for="browser"> Escolha seu Browser de pref! :</label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+</datalist>
+<hr>
+<h2>output tag!!!</h2>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="range" id="a" value="50">
+    +<input type="number" id="b" value="25">
+    =<output name="x" for="a b"></output>
+</form>
+<h3>WOWWW</h3>
+<hr>
+<h2>optgroup tag!!!</h2>
+<label for="opcoes">Escolha opções:</label>
+<select name="opcoes" id="opcoes">
+    <optgroup label="com A">
+     <option value="AA">AA</option>
+     <option value="AB">AB</option>
+     <option value="AC">AC</option>
+    </optgroup>
+    <optgroup label="com B">
+    <option value="BA">BA</option>
+    <option value="BB">BB</option>
+    <option value="BC">BC</option>
+    </optgroup>
+</select>
+<hr>
+<h2>botão com alert:</h2>
+<button id="botao" type="button" onclick="alert('NÃO ME CLICAAAA!!!!!!!')">NÃO CLIQUE!</button>
+      <hr>
+        <a href="/">RETORNAR INDEX AULAS!</a>
+    </body>
+</head>
