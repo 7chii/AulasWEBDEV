@@ -51,3 +51,7 @@ table{
     background-color: yellow;
 
 }
+#blank{
+    clear: both;
+    visibility: hidden;
+}

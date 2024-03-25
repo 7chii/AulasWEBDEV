@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>A#5</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="index das aulas de dev web">
+    <meta name="author" content="Maripaper3">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+</head>
+<body>
+    <hr>
+    <h1>AULA 5</h1>
+    <h2>Javascript!</h2>
+    <h3>FUNCOES!</h3>
+    <p>são blocos de codigo chamados por funcoes() que executam parametros e retornam valores!</p>
+    <h3>EXEMPLOS! :</h3>
+    <p>MUDE A COR DA COBRINHAA!!!!!!</p>
+    <hr id="blank">
+    <button type="button" onclick="Javaex()">VERMELHO!</button>
+    <button type="button" onclick="Javaex1()">AZUL!</button>
+    <p id="para">███████████</p>
+    <br>
+    <p>INSIRA VALORES PARA SOMAR!!!</p>
+    <input type="text" id="val1" name="val1">
+    <input type="text" id="val2" name="val2">
+    <button type="button" onclick="medVal()">CALCULAR</button>
+    <p>resultado:</p>
+    <p id="para1"></p>
+    <hr>
+    <h3>SCRIPT FUNCOES JAVASCRIPT! :</h3>
+    <pre>script> 
+        //funcoes javascript no front!
+            function Javaex() {
+                document.getElementById("para").style.color = "red";
+            };
+            function Javaex1(){
+                document.getElementById("para").style.color = "blue";
+            };
+            function medVal(){
+                let num1 = document.getElementById('val1').value;
+                let num2 = document.getElementById('val2').value;
+                let med = parseInt(num1) + parseInt(num2);
+                document.getElementById("para1").innerHTML = med;
+            };
+        script
+    </pre>
+    <hr>
+        <a href="/">RETORNAR INDEX AULAS!</a>
+    <script>
+    //funcoes javascript no front!
+        function Javaex() {
+            document.getElementById("para").style.color = "red";
+        };
+        function Javaex1(){
+            document.getElementById("para").style.color = "blue";
+        };
+        function medVal(){
+            let num1 = document.getElementById('val1').value;
+            let num2 = document.getElementById('val2').value;
+            let med = parseInt(num1) + parseInt(num2);
+            document.getElementById("para1").innerHTML = med;
+        };
+        
+    </script>
+</body>
+</html>

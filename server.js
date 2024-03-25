@@ -27,6 +27,9 @@ app.get('/ativ',(req, res)=>{
 app.get('/aula03',(req, res)=>{
     res.sendFile(path.join(__dirname, 'static/aula3.html'))
 })
+app.get('/aula05', (req, res)=>{
+    res.sendFile(path.join(__dirname, 'static/aula5.html'))
+})
 app.listen(port, ()=>{
     console.log(`api listening on port ${port}`)
 })
